@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <EditText android:id="@+id/edit_station"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_station">
+    </EditText>
+    <EditText android:id="@+id/edit_odometer"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_odometer">
+    </EditText>
+    <EditText android:id="@+id/edit_fuel_grade"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_fuel_grade">
+    </EditText>
+    <EditText android:id="@+id/edit_fuel_amount"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_fuel_amount">
+    </EditText>
+    <EditText android:id="@+id/edit_unit_cost"
+        android:layout_width = "match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_unit_cost">
+    </EditText>
+
+    <EditText android:id="@+id/edit_date"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint="@string/edit_date">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="createEntry"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">THUNT-FuelTrack</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_station">Fuel station</string>
+    <string name="edit_odometer">Odometer reading (km)</string>
+    <string name="edit_fuel_grade">Fuel grade (eg. Regular)</string>
+    <string name="edit_fuel_amount">Fuel amount (L)</string>
+    <string name="edit_unit_cost">Cost (cents/L)</string>
+    <string name="edit_date">Date (yyyy-mm-dd)</string>
+    <string name="button_send">Create entry</string>
+    <string name="title_activity_display_log">DisplayLogActivity</string>
+    <string name="title_activity_edit_entry">EditEntryActivity</string>
+    <string name="new_entry">New Entry</string>
+</resources>
